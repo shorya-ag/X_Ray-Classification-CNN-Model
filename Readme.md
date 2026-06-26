@@ -87,27 +87,29 @@ This file contains the architecture of the Convolutional Neural Network used for
 * Dropout (0.2) after each convolution block
 * Flatten Layer
 * Fully Connected (Dense) Hidden Layer
-* Output Layer with **1 neuron** using the **Sigmoid** activation function
+* Output Layer 
 
 #### Activation Functions
 
-* Hidden Layers → **ReLU**
+* Convolutional Layers → **ReLu**
 * Output Layer → **Sigmoid**
-
-Since this is a **binary classification** problem, the sigmoid activation function is used in the output layer.
 
 ---
 
 ### 📌 Model_Evaluation.py
 
-This file evaluates the trained CNN model by generating:
+This file is responsible for evaluating the performance of the trained CNN model. It generates the following outputs:
 
-* Model Summary
-* Training Accuracy
-* Validation Accuracy
-* Accuracy Graphs
+- **Model Summary** of the CNN architecture
+- **Training and Validation Accuracy** metrics
+- **Accuracy Graph** showing the learning performance across training epochs
 
-These visualizations help analyze the learning performance of the model during training.
+The evaluation results are saved in the repository as:
+
+- 📄 **Model_Summary.jpeg** – Screenshot of the complete CNN model architecture and layer details.
+- 📈 **Accuracy_Graph.png** – Visualization of the training and validation accuracy over the training epochs.
+
+These outputs help in understanding the model architecture and analyzing its learning performance.
 
 ---
 
